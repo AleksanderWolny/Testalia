@@ -1,0 +1,20 @@
+The following test cases checks, not only the functions included in the content of the task.
+But also additional elements, that may occur, when testing websites.
+
+Test cases description:
+1. showDropDownMenuWithMouseHover
+    Check if buttons inside menu, are not displayed immediately.
+    Then hover mouse over menu, to get to addition options.
+2. enableFormAfterButtonClick
+    Check if form is blocked in default.
+    After clicking edit form button, check if all fields are enable.
+3. fillFormWithNewContent
+    Enable form to editing.
+    Input new data in fields 'Imię', 'Nazwisko', 'Notatka' and 'Telefon'.
+    Save with button click and check, if provided data are in form.
+4. uploadPhotoFromHardDrive
+    Enable form to editing.
+    Choose photo from hard drive, and check if it is on uploaded on page.
+5. visibilityOfSuccessSaveMessage
+    Check, if message appear after clicking save button.
+    Validate text of message.

@@ -1,0 +1,12 @@
+https://buggy-testingcup.pgs-soft.com/task_4
+Task 4:
+Kliknięcie przycisku aplikuj otwiera nowe okno przeglądarki z formularzem.
+
+Możliwe jest uzupełnienie formularza i wysłanie formularza.
+
+Wymagane pola w formularzu to:
+
+Imię i nazwisko - ograniczenie do 50 znaków
+Email (w formacie a@b.pl, w przeciwnym wypadku wyświetla się informacja o konieczności wprowadzenia danych w odpowiednim formacie) - ograniczenie do 50 znaków
+Numer telefonu (w formacie 600-100-200)
+Po wysłaniu uzupełnionego formularza poprzez kliknięcie przycisku "Wyślij" pojawia się odpowiednia informacja mówiąca o powodzeniu wykonanej akcji.

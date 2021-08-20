@@ -1,0 +1,19 @@
+The following test cases checks, not only the functions included in the content of the task.
+But also additional elements, that may occur, when testing websites.
+
+Test cases description:
+1. importCorrectTextFile
+    Click on button and import file with correct data.
+    Check if the data on the website is displayed and correct.
+2. importEmptyTextFile
+    Click on button and import file that is empty.
+    Check if alert appear and has correct message.
+3. importIncorrectTextFile
+    Click on button and import file with incorrect data.
+    Check if alert appear and has correct message.
+4. importExceededCSVFile
+    Click on button and import file with more then 20 rows in it.
+    Check if alert appear and has correct message.
+5. importWrongNumberFormatTextFiles
+    Click on button and import in sequence, files with incorrect phone number.
+    Every time check if alert appear and has correct message.

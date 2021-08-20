@@ -1,0 +1,25 @@
+The following test cases checks, not only the functions included in the content of the task.
+But also additional elements, that may occur, when testing websites.
+
+Test cases description:
+1. checkEmptyCart
+    Check if cart is empty, when opening in new tab.
+    Comparing value from 'Łączna ilość produktów:' to be equal '0'.
+    And for value 'Do zapłaty:' to be equal '0.00 zł'.
+2. oneItemToCart
+    On first product, find input tag. Increase number to '1' and add it to cart.
+    Check if product was added. And verify name, quantity and price on cart panel.
+3. removeOneItemFromCart
+    Add few products of one item to cart and then remove from it.
+4. changeValueAddToCartByArrowKey
+    Increase and decrease number of products in input value with arrow keys.
+    Then, add product to cart.
+5. exceedMaxValueInCart
+    Add 100 products to cart. Then add one more product, and validate that it cant contain more.
+    Validate text of alert.
+6. addOneItemFromAllProducts
+    Add 1 item from all products.
+    Validate total number of products and price in cart.
+7. deleteOneItemFromAllProducts
+    Add 1 item from all products. Then delete them one by one.
+    Validate that cart is empty.

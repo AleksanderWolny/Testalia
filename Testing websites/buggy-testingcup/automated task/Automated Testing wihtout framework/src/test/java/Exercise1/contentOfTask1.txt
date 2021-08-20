@@ -1,0 +1,8 @@
+https://buggy-testingcup.pgs-soft.com/task_1
+Task 1:
+Dodawanie produktu do koszykaOpis funkcjonalności:
+Dodanie produktu do koszyka odbywa się poprzez kliknięcie w przycisk „Dodaj” znajdującego się w polu z danym produktem na liście produktów.
+
+Do koszyka zostanie dodana ilość produktów, wybrana za pomocą strzałek góra dół (pojawiających się po podświetleniu pola edycji) lub poprzez wpisanie z klawiatury w polu edycji ilości produktów.
+
+Łączna ilość produktów w koszyku nie może przekroczyć 100.
