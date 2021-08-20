@@ -1,0 +1,13 @@
+Description:
+This folder, contains tests of website: https://buggy-testingcup.pgs-soft.com/.
+There are completed tasks, from 1 to 5.
+
+Objective:
+The purpose of these tests was to perform tasks and consolidate knowledge.
+The tests were written in Java with the Maven project and the Selenium library.
+
+Remarks:
+Tests are written without using a framework.
+I am fully aware that a lot of code is unnecessarily duplicated. However, this is a deliberate action.
+I wanted each one test case to be a separate, independent entity.
+I was just focusing on checking my knowledge, to see if I was able to get the job done.
