@@ -1,0 +1,4 @@
+C:\Users\awolny\Desktop\przydatne\nauka_własna\java\Java_with_Page_Object_Pattern\src\main\resources\task5\testDataFiles\wrongNumberDataFile\lettersInsteadOfNumbers.txt
+C:\Users\awolny\Desktop\przydatne\nauka_własna\java\Java_with_Page_Object_Pattern\src\main\resources\task5\testDataFiles\wrongNumberDataFile\noPhoneNumber.txt
+C:\Users\awolny\Desktop\przydatne\nauka_własna\java\Java_with_Page_Object_Pattern\src\main\resources\task5\testDataFiles\wrongNumberDataFile\tooLongPhoneNumber.txt
+C:\Users\awolny\Desktop\przydatne\nauka_własna\java\Java_with_Page_Object_Pattern\src\main\resources\task5\testDataFiles\wrongNumberDataFile\tooShortPhoneNumber.txt
