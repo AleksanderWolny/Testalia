@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="task2">
+    <test name="FilterProductByCategory">
+        <classes>
+            <class name="allTests.Task2Tests"/>
+        </classes>
+    </test>
+</suite>

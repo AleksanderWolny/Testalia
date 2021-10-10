@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="task9">
+    <test name="TreeFolder">
+        <classes>
+            <class name="allTests.Task9Tests"/>
+        </classes>
+    </test>
+</suite>

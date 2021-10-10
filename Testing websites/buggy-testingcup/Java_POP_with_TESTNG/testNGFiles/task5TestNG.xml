@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="task5">
+    <test name="FileUpload">
+        <classes>
+            <class name="allTests.Task5Tests"/>
+        </classes>
+    </test>
+</suite>
