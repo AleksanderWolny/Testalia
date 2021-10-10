@@ -1,0 +1,13 @@
+https://buggy-testingcup.pgs-soft.com/task_10
+Task 10:
+Nazwa funkcjonalności:
+Dynamiczne wczytywanie tekstuOpis funkcjonalności:
+Strona zawiera tekst podzielony na paragrafy.
+
+Możliwe jest przewijanie tekstu w górę / w dół.
+
+Podczas przewijania tekstu w dół, tekst jest dynamicznie wczytywany fragmentami za pomocą skryptu js. Kolejne fragmenty wczytywane są do momentu pojawienia się napisu ‘Koniec’.
+
+Tekst powinien zostać dograny jedynie 6 razy.
+
+Po przewinięciu w górę wczytany tekst pozostaje na ekranie.

@@ -1,0 +1,14 @@
+https://buggy-testingcup.pgs-soft.com/task_5
+Task 5:
+Nazwa funkcjonalności:
+Kliknięcie w przycisk ‘Browse’ otwiera okno eksploratora windows.
+
+Plik powinien zawierać trzy kolumny, imię, nazwisko i numer telefonu, oddzielone przecinkami.
+
+Kolumna nr telefonu może zawierać jedynie znaki numeryczne i powinna przyjmować jedynie 9 cyfrowe numery.
+
+Akceptowalne są jedynie pliki w formacie .txt i .csv.
+
+Maksymalnie wprowadzić można 20 wierszy.
+
+Konieczne jest wgranie odpowiednio sformatowanego pliku, w przeciwnym wypadku pojawia się komunikat o błędzie. Prawidłowo sformatowane i wgrane dane są przetwarzane i umieszczane w tabelce w odpowiednich polach.
