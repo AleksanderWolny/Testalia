@@ -1,0 +1,11 @@
+https://buggy-testingcup.pgs-soft.com/task_8
+Task 8:
+Nazwa funkcjonalności:
+Płatność kartąOpis funkcjonalności:
+Dostępny formularz umożliwia płatność różnymi kartami płatniczymi (lista obsługiwanych kart w linku poniżej).
+
+Konieczne jest podanie imienia i nazwiska, numeru karty oraz kodu cvv i daty ważności karty. W przypadku kodu cvv wyświetlana jest podpowiedź w ‘dymku’ na ikonce ‘i’. Po kliknięciu przycisku Zapłać następuje weryfikacja każdego z pól pod względem poprawności wprowadzonych danych.
+
+Przykładowe numery kart kredytowych:
+
+LINK: https://testingcup.pgs-soft.com/credit-cards

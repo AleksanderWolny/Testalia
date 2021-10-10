@@ -1,0 +1,17 @@
+https://buggy-testingcup.pgs-soft.com/task_6
+Task 6:
+Nazwa funkcjonalności:
+Pobieranie pliku
+
+Opis funkcjonalności:
+Pobranie pliku jest możliwe po zalogowaniu się do aplikacji. Aby zalogować się należy uzupełnić formularz logowania odpowiednimi danymi, a następnie kliknąć przycisk ‘Login’ lub użyć klawisza ENTER. W przypadku błędnego uzupełnienia, pojawia się komunikat o błędzie.
+
+Po przejściu do chronionego obszaru strony, możliwe jest pobranie pliku lub wylogowanie, za pomocą odpowiednich odnośników na stronie.
+
+Plik zapisywany jest do domyślnego folderu zapisu (np. Pobrane).
+
+Dane do logowania:
+
+Użytkownik: tester
+
+Hasło: 123-xyz

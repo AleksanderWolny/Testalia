@@ -1,0 +1,13 @@
+https://buggy-testingcup.pgs-soft.com/task_9
+Task 9:
+Nazwa funkcjonalności:
+Drzewko folderówOpis funkcjonalności:
+Drzewko jest rozwijalne, posiada foldery nadrzędne oraz podfoldery.
+
+Rozwinięcie listy podfolderów następuje poprzez kilnięcie nazwy folderu nadrzędnego lub strzałki obok nazwy folderu (po lewej stronie).
+
+Ponadto przejście do danego folderu powoduje powoduje wyświetlenie tekstu, podzielonego na nagłówek (będący jednocześnie nazwą folderu / podfolderu) i tekst paragrafu.
+
+Możliwa jest zmiana nazwy każdego z folderów nadrzędnych oraz podfolderów, poprzez opcję edycji, dostępną po kliknięciu prawym przyciskiem na nazwę folderu / podfolderu. Ograniczenie nazwy do 20 znaków.
+
+Wraz ze zmianą nazwy folderu / podfolderu, zmienia się także odpowiednio treść nagłówka.

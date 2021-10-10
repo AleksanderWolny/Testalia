@@ -1,0 +1,13 @@
+https://buggy-testingcup.pgs-soft.com/task_7
+Task 7:
+Nazwa funkcjonalności:
+Dodawanie produktu do koszyka poprzez drag&drop
+
+Opis funkcjonalności:
+Do koszyka zostanie dodana ilość produktów, wybrana za pomocą strzałek góra dół (pojawiających się po podświetleniu pola edycji) lub poprzez wpisanie z klawiatury w polu edycji ilości produktów.
+
+Łączna ilość produktów w koszyku nie może przekroczyć 100.
+
+Żeby dodać produkt do koszyka należy przeciągnąć jego zdjęcie w obszar, który pojawi się po "złapaniu" zdjęcia - "Przeciągnij i upuść tutaj!"
+
+Po przeciągnięciu do koszyka produkt pojawia się na liście. Widoczna jest nazwa, ilość, przycisk usuń – służący do usunięcia produktu oraz suma cen produktów, znajdujących się w koszyku.
