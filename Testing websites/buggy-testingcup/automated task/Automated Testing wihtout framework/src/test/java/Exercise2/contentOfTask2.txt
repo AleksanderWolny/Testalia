@@ -1,9 +1,0 @@
-https://buggy-testingcup.pgs-soft.com/task_2
-Task 2:
-Lista dostępnych kategorii wraz z polem wyszukiwania pojawia się po kliknięciu w pole ‘Proszę wybrać kategorie’.
-
-Wyszukiwanie zawiera system podpowiedzi, tj. po wpisaniu kilku znaków wyświetla się kategoria o nazwie, zawierającej wpisaną frazę lub fragment tekstu.
-
-Funkcja podpowiedzi mapuje wpisaną frazę również na polskie znaki, czyli na przykład po wpisaniu „pilka” otrzymalibyśmy podpowiedź „piłka”.
-
-Filtrowanie produktów następuje po wybraniu kategorii. Wyświetlane są tylko te, które należą do danej kategorii.
