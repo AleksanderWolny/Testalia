@@ -150,6 +150,30 @@ Numbers Of Rows On Page
 Use Button To Change Page
     [Documentation]     Check if buttons are disabled. Change page row to 5, add few datas. Validate that next page is
     ...                 available. Click next page. Check if previous page is aviable.
+    element attribute value should be  ${page_number_input}  value  1
+    element text should be  ${total_page_span}  1
+    element should be disabled  ${previous_button}
+    element should be disabled  ${next_button}
+    select from list by value  ${select_nr_of_rows}  5
+    FOR  ${ele}  IN RANGE  10
+        click button  ${add_form_button}
+        wait until element is visible  ${form_dialog}
+        element should be visible  ${form_dialog}
+        @{get_all_inputs}=  get webelements  ${all_form_inputs}
+        Text Input With Correct Short Data  ${short_text}  ${short_number}  ${email_text}  @{get_all_inputs}
+        click button  ${button_form_submit}
+        wait until element is not visible  ${form_dialog}
+    END
+    element text should be  ${total_page_span}  3
+    element should be enabled  ${next_button}
+    click button  ${next_button}
+    element attribute value should be  ${page_number_input}  value  2
+    element should be enabled  ${previous_button}
+    click button  ${previous_button}
+    element attribute value should be  ${page_number_input}  value  1
 
 Change Page With Number
     [Documentation]     Change page with number.
+    element text should be  ${total_page_span}  ${nr}
+    input text  ${page_number_input}  ${nr}  clear=True
+    element attribute value should be  ${page_number_input}  value  ${nr}

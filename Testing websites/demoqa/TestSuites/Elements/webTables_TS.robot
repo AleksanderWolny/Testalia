@@ -34,4 +34,5 @@ ${browser}=     Chrome
 #Numbers Of Visible Rows On Page
 #    Numbers Of Rows On Page
 Go To Next Page And Previous Page
-    Go To Page
+    Use Button To Change Page
+    Change Page With Number

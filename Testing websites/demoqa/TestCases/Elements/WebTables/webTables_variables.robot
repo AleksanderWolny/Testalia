@@ -9,6 +9,9 @@ ${select_nr_of_rows}            xpath://select[@aria-label='rows per page']
 @{select_options}               5  10  20  25  50  100
 ${previous_button}              xpath://button[text()='Previous']
 ${next_button}                  xpath://button[text()='Next']
+${page_number_input}            xpath://input[@aria-label='jump to page']
+${total_page_span}              xpath://span[@class='-totalPages']
+${nr}                           3
 
 
 #   form - labeles
