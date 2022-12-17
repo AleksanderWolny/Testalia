@@ -1,0 +1,20 @@
+https://www.selenium.dev/selenium/docs/api/py/webdriver_remote/selenium.webdriver.remote.webelement.html
+${get_input_1}=  get webelement  ${first_name_input}
+${get_css_1}=  call method  ${get_input_1}  value_of_css_property  border-color
+
+ten zapis z call method pozwala na wejscie do "srodka" pobranego webelement
+na stronce sa komendy jakie mozna uzyc
+wiekszosc z nich jest obslugiwana z poziomu robota
+
+
+
+ciezko pobrac wartosc bezposrednio z css
+
+kolor jaki ta komenda zwraca jest inny niz prezentowany w przegladarce
+dlaczego tak?
+
+
+ten zapis z java script tez dziala
+
+${get_css_2_a}    Execute Javascript    return document.defaultView.getComputedStyle(document.getElementById("firstName"),null)['border-color']
+log many  ${get_css_2_a}
